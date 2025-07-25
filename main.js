@@ -120,7 +120,7 @@ function updatePlot() {
   addText(
     xNotA,
     yNotA_B,
-    `P(E | ¬H) = ${areaNotA_B.toFixed(2)}`,
+    `P(E | ¬H) Alturnative Liklihood = ${areaNotA_B.toFixed(2)}`,
     chooseTextColor(colors.notA_B)
   );
   addText(
