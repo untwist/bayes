@@ -105,10 +105,30 @@ function updatePlot() {
     notA_notB: '#ffdcb3',
   };
 
-  addText(xA, yAB, `P(H∧E) = ${areaAB.toFixed(2)}`, chooseTextColor(colors.AB));
-  addText(xA, yAnotB, `P(H∧¬E) = ${areaAnotB.toFixed(2)}`, chooseTextColor(colors.AnotB));
-  addText(xNotA, yNotA_B, `P(¬H∧E) = ${areaNotA_B.toFixed(2)}`, chooseTextColor(colors.notA_B));
-  addText(xNotA, yNotA_notB, `P(¬H∧¬E) = ${areaNotA_notB.toFixed(2)}`, chooseTextColor(colors.notA_notB));
+  addText(
+    xA,
+    yAB,
+    `P(E | H) × P(H) = ${areaAB.toFixed(2)}`,
+    chooseTextColor(colors.AB)
+  );
+  addText(
+    xA,
+    yAnotB,
+    `P(¬E | H) × P(H) = ${areaAnotB.toFixed(2)}`,
+    chooseTextColor(colors.AnotB)
+  );
+  addText(
+    xNotA,
+    yNotA_B,
+    `P(E | ¬H) × P(¬H) = ${areaNotA_B.toFixed(2)}`,
+    chooseTextColor(colors.notA_B)
+  );
+  addText(
+    xNotA,
+    yNotA_notB,
+    `P(¬E | ¬H) × P(¬H) = ${areaNotA_notB.toFixed(2)}`,
+    chooseTextColor(colors.notA_notB)
+  );
 
   // Compute posterior
   const numerator = pBgivenA * pA;
