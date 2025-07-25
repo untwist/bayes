@@ -12,7 +12,7 @@ evidence when the hypothesis does not hold&mdash;the symbol `¬` simply means
 
 ## Quick start
 
-[Try it out!]([url](https://untwist.github.io/bayes/bayes_interactive.html))
+[Try it out!](https://untwist.github.io/bayes/bayes_interactive.html)
 
 or...
 Clone repository, open `bayes_interactive.html` in your browser.
@@ -26,4 +26,4 @@ The repository will gradually include short tutorials illustrating classical use
 
 These scenarios will highlight how the sliders correspond to the quantities in Bayes' formula and how the posterior changes.
 
-Inspired by Grant Sanderson's (3Blue1Brown) video on Bayes' theorem. [https://youtu.be/HZGCoVF3YvM?si=MNDsbUa6a30rxe6d]([url](https://youtu.be/HZGCoVF3YvM?si=MNDsbUa6a30rxe6d))
+Inspired by Grant Sanderson's (3Blue1Brown) video on Bayes' theorem. [https://youtu.be/HZGCoVF3YvM?si=MNDsbUa6a30rxe6d](https://youtu.be/HZGCoVF3YvM?si=MNDsbUa6a30rxe6d)
