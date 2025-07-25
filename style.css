@@ -82,13 +82,13 @@ body {
       fill: #4a90d9; /* medium blue */
     }
     .rect-AnotB {
-      fill: #c8e3fa; /* light blue */
+      fill: #edf1f5; /* grey blueishy */
     }
     .rect-notA_B {
       fill: #f79a44; /* orange */
     }
     .rect-notA_notB {
-      fill: #ffdcb3; /* pale orange */
+      fill: #d9d3cc; /* grey pale orangeishy */
     }
 
     .value-display {
