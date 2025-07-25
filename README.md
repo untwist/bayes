@@ -21,3 +21,5 @@ The repository will gradually include short tutorials illustrating classical use
 - Distinguishing between biased and fair coins using repeated tosses.
 
 These scenarios will highlight how the sliders correspond to the quantities in Bayes' formula and how the posterior changes.
+
+Inspired by Grant Sanderson's (3Blue1Brown) video on Bayes' theorem. https://youtu.be/HZGCoVF3YvM?si=MNDsbUa6a30rxe6d
