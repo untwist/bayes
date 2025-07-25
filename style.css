@@ -51,6 +51,32 @@ body {
       background-color: #fafafa;
     }
 
+    .diagram-label {
+      position: absolute;
+      font-weight: bold;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 2px 4px;
+      pointer-events: none;
+    }
+
+    .prior-label {
+      bottom: -25px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .likelihood-label {
+      top: 50%;
+      left: -10px;
+      transform: translate(-100%, -50%);
+    }
+
+    .alt-likelihood-label {
+      top: 50%;
+      right: -10px;
+      transform: translate(100%, -50%);
+    }
+
     /* Colors for the rectangles */
     .rect-AB {
       fill: #4a90d9; /* medium blue */
