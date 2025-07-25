@@ -7,9 +7,15 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="sidebar">
-    <h1>Bayes' Theorem</h1>
-    <p>This interactive tool helps you explore Bayes' theorem by adjusting the parameters below. The formula expresses how to update a belief (hypothesis H) in light of new evidence (E). The three sliders correspond to the prior probability of the hypothesis, the likelihood of seeing the evidence when the hypothesis is true, and the likelihood of seeing the evidence when the hypothesis is false.</p>
+    <div class="sidebar">
+      <h1>Bayes' Theorem</h1>
+      <p>This interactive tool helps you explore Bayes' theorem by adjusting the parameters below. The formula expresses how to update a belief (hypothesis H) in light of new evidence (E). The three sliders correspond to the prior probability of the hypothesis, the likelihood of seeing the evidence when the hypothesis is true, and the likelihood of seeing the evidence when the hypothesis is false.</p>
+      <p>
+        In the notation <em>P(E | H)</em>, the bar "|" means "given that." It represents the
+        probability of observing the evidence if the hypothesis is true. Likewise,
+        <em>P(E | ¬H)</em> denotes the probability of seeing the evidence assuming the
+        hypothesis is false; the symbol "¬" simply means "not".
+      </p>
     <div class="slider-group">
       <label for="pA">Prior probability P(H)</label>
       <input type="range" id="pA" min="0" max="1" step="0.01" value="0.5" />
