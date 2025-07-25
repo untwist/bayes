@@ -8,6 +8,7 @@ hypothesis `H` is true." Likewise, `P(E | ¬H)` represents the probability of th
 evidence when the hypothesis does not hold&mdash;the symbol `¬` simply means
 "not." These quantities feed into Bayes' theorem to compute the updated belief
 `P(H | E)`.
+![Bayes Theorem Formula v2](https://github.com/user-attachments/assets/8dd4f1d5-a2ba-429c-bba8-a5af5d2d428e)
 
 ## Quick start
 
