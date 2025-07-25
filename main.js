@@ -20,6 +20,16 @@ function updatePlot() {
   const heightBgivenNotA = pBgivenNotA * height;
   const heightNotBgivenNotA = (1 - pBgivenNotA) * height;
 
+  // Update dynamic positions for the side labels relative to slider values
+  const priorLabel = document.querySelector('.prior-label');
+  priorLabel.style.left = `${widthA / 2}px`;
+
+  const likelihoodLabel = document.querySelector('.likelihood-label');
+  likelihoodLabel.style.top = `${height - heightBgivenA / 2}px`;
+
+  const altLabel = document.querySelector('.alt-likelihood-label');
+  altLabel.style.top = `${height - heightBgivenNotA / 2}px`;
+
   const svg = document.getElementById('plot');
   // Remove existing rectangles and texts
   while (svg.firstChild) {
