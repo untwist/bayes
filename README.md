@@ -12,6 +12,9 @@ evidence when the hypothesis does not hold&mdash;the symbol `¬` simply means
 
 ## Quick start
 
+https://untwist.github.io/bayes/bayes_interactive.html
+
+or...
 Clone repository, open `bayes_interactive.html` in your browser.
 
 ## Planned tutorials and scenarios
