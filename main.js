@@ -114,7 +114,7 @@ function updatePlot() {
   addText(
     xA,
     yAnotB,
-    `XXXX = ${areaAnotB.toFixed(2)}`,
+    `${areaAnotB.toFixed(2)}`,
     chooseTextColor(colors.AnotB)
   );
   addText(
@@ -126,7 +126,7 @@ function updatePlot() {
   addText(
     xNotA,
     yNotA_notB,
-    `YYYY = ${areaNotA_notB.toFixed(2)}`,
+    `${areaNotA_notB.toFixed(2)}`,
     chooseTextColor(colors.notA_notB)
   );
 
