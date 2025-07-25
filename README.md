@@ -12,6 +12,10 @@ These quantities feed into Bayes' theorem to compute the updated belief
 `P(H | E)`.
 ![Bayes Theorem Formula v2](https://github.com/user-attachments/assets/8dd4f1d5-a2ba-429c-bba8-a5af5d2d428e)
 
+[<img width="2000" height="2000" alt="mens-t-shirt-regular-smoke-front-back-1" src="https://github.com/user-attachments/assets/145168a0-7962-44fc-8536-e78bde6310c4" />](https://toddbrous.threadless.com/designs/bayes-theorem-black/mens/t-shirt/regular?variation=front-back)
+[You can buy this T-shirt from my Threadless Store!](https://toddbrous.threadless.com/designs/bayes-theorem-black/mens/t-shirt/regular?variation=front-back)
+
+
 ## Quick start
 
 [Try it out!](https://untwist.github.io/bayes/bayes_interactive.html)
