@@ -21,7 +21,7 @@ These quantities feed into Bayes' theorem to compute the updated belief
 
 ## Quick start
 
-[Try it out!](https://untwist.github.io/bayes/bayes_interactive.html)
+# [Try it out!](https://untwist.github.io/bayes/bayes_interactive.html)
 
 or...
 Clone repository, open `bayes_interactive.html` in your browser.
