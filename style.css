@@ -106,13 +106,16 @@ body {
     .value-display {
       font-weight: bold;
     }
+    .posterior-container {
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+      margin-top: 10px;
+    }
+
     .posterior-display {
       font-size: 1.2em;
-      margin-top: 10px;
-      padding: 10px;
-      border: 1px solid #ccc;
-      background-color: #f9f9f9;
-      border-radius: 5px;
     }
     .footer {
       margin-top: auto;
