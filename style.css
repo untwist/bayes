@@ -122,3 +122,20 @@ body {
       font-size: 0.9em;
       color: #888;
     }
+
+    .image-container {
+      margin-top: 20px;
+    }
+
+    .bayes-formula {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .copyright {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      font-size: 0.8em;
+      color: #888;
+    }
