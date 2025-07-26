@@ -8,7 +8,6 @@
 </head>
 <body>
     <div class="sidebar">
-      <a href="index.html" class="back-button">&larr; Back to Home</a>
       <h1>Bayes' Theorem</h1>
       <p>This interactive tool helps you explore Bayes' theorem by adjusting the parameters below. The formula expresses how to update a belief (hypothesis H) in light of new evidence (E). The three sliders correspond to the prior probability of the hypothesis, the likelihood of seeing the evidence when the hypothesis is true, and the likelihood of seeing the evidence when the hypothesis is false.</p>
       <p>
@@ -32,10 +31,8 @@
       <input type="range" id="pBgivenNotA" min="0" max="1" step="0.01" value="0.2" />
       <span id="pBgivenNotA-value" class="value-display">0.20</span>
     </div>
-    <div class="posterior-container">
-      <div class="posterior-display">
-        Posterior P(H&nbsp;|&nbsp;E): <span id="posterior-value">0.80</span>
-      </div>
+    <div class="posterior-display">
+      Posterior P(H&nbsp;|&nbsp;E): <span id="posterior-value">0.80</span>
     </div>
     <p id="interpretation"></p>
     <div class="footer">
@@ -51,9 +48,9 @@
       <div class="diagram-label likelihood-label">Likelihood</div>
       <div class="diagram-label alt-likelihood-label">Alternative Liklihood</div>
     </div>
-    <div class="image-container">
-      <img src="Bayes Theorem Formula v2.jpg" alt="Bayes Theorem Formula" class="bayes-formula">
-    </div>
+  </div>
+  <div class="image-panel">
+    <img src="Bayes Theorem Formula v2.jpg" alt="Bayes Theorem Formula" class="bayes-formula">
     <div class="copyright">
       &copy;2025, Todd Brous
     </div>
